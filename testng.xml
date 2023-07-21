@@ -1,0 +1,7 @@
+<suite name="Demo Suite">
+    <test name="RestAssured Test">
+        <classes>
+            <class name="tests.StatusTests"/>
+        </classes>
+    </test>
+</suite>
