@@ -14,4 +14,14 @@ public class StatusTests extends BaseTest{
                 .log().all()
                 .statusCode(200);
     }
+
+    @Test
+    public void testAPIStatusWrongMethod(){
+        given()
+        .when()
+                .post("/status")
+        .then()
+                .log().all()
+                .statusCode(404);
+    }
 }
