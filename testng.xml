@@ -2,6 +2,7 @@
     <test name="RestAssured Test">
         <classes>
             <class name="tests.StatusTests"/>
+            <class name="tests.RegisterNewClientTest"/>
         </classes>
     </test>
 </suite>
