@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3c348cb-5eca-4b4a-afd0-7eb285058e19" name="Changes" comment="Added testAPIStatusWrongMethod">
+    <list default="true" id="f3c348cb-5eca-4b4a-afd0-7eb285058e19" name="Changes" comment="Added class to generate new API Token (RegisterNewClientTest)">
       <change afterPath="$PROJECT_DIR$/src/test/java/tests/BookStoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RegisterNewClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegisterNewClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegisterNewClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689968403936</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added class to generate new API Token (RegisterNewClientTest)">
+      <created>1690026019196</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690026019196</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added testAPIStatusWrongMethod" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added testAPIStatusWrongMethod" />
+    <MESSAGE value="Added class to generate new API Token (RegisterNewClientTest)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added class to generate new API Token (RegisterNewClientTest)" />
   </component>
 </project>

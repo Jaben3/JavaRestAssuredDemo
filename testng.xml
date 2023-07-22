@@ -1,8 +1,9 @@
 <suite name="Demo Suite">
     <test name="RestAssured Test">
         <classes>
-            <class name="tests.StatusTests"/>
-            <class name="tests.RegisterNewClientTest"/>
+            <!-- <class name="tests.StatusTests"/> -->
+            <!-- <class name="tests.RegisterNewClientTest"/> -->
+            <class name="tests.BookStoreTest"/>
         </classes>
     </test>
 </suite>

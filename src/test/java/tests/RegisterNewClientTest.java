@@ -31,7 +31,5 @@ public class RegisterNewClientTest extends BaseTest{
         .then()
                 .log().all()
                 .statusCode(409);
-
-
     }
 }
