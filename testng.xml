@@ -1,9 +1,13 @@
 <suite name="Demo Suite">
+    <parameters>
+        <parameter name="accessToken" value="ddf1231f6e601f4184fff4756a5bacf27aff4440ad6c9b179b3a28fbe05f3330"/>
+    </parameters>
+
     <test name="RestAssured Test">
         <classes>
-            <!-- <class name="tests.StatusTests"/> -->
-            <!-- <class name="tests.RegisterNewClientTest"/> -->
+            <class name="tests.StatusTests"/>
             <class name="tests.BookStoreTest"/>
+            <class name="tests.OrdersTest"/>
         </classes>
     </test>
 </suite>
